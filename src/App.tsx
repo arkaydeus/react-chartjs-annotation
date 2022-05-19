@@ -66,5 +66,10 @@ export const data = {
 };
 
 export function App() {
-  return <Line options={options} data={data} />;
+  return (
+    <div>
+      <h1>Example react-chartjs-2 Chart with the annotation plugin</h1>
+      <Line options={options} data={data} />;
+    </div>
+  );
 }
