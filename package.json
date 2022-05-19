@@ -1,0 +1,34 @@
+{
+  "main": "index.tsx",
+  "dependencies": {
+    "chart.js": "3.7.1",
+    "chartjs-plugin-annotation": "1.4.0",
+    "faker": "5.5.3",
+    "react": "18.0.0",
+    "react-chartjs-2": "4.1.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "@types/faker": "5.5.3",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "typescript": "4.5.4"
+  },
+  "keywords": [
+    "react-chartjs-2",
+    "react",
+    "chartjs-plugin-annotation",
+    "chartjs"
+  ],
+  "name": "react-chartjs-annotations",
+  "description": "Sandbox showing use of react-chartjs-2 with chartjs-plugin-annotation",
+  "version": "0.0.6",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
